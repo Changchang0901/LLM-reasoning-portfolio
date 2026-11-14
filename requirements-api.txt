@@ -1,0 +1,5 @@
+-r requirements.txt
+openai>=1.75,<3
+google-genai>=1.51,<3
+anthropic>=0.51,<1
+together>=1.5,<3

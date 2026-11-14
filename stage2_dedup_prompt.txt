@@ -1,0 +1,31 @@
+You are an expert in theoretical physics. Your task is to aggressively clean up a chunk of a model's Chain-of-Thought (CoT) reasoning by removing redundant and irrelevant content.
+
+## Problem Statement
+{problem_statement}
+
+## CoT Chunk to Clean
+{cot_chunk}
+
+## Instructions
+Aggressively remove the following from the chunk:
+1. **Repeated reasoning**: If the same derivation or argument appears multiple times, keep only the FINAL version. Be thorough — models often repeat similar reasoning 3-5 times with slight variations.
+2. **Abandoned approaches**: Any reasoning path the model tried then gave up on (e.g., "Wait, that's wrong", "Actually, let me try a different approach", "No, this doesn't work")
+3. **Metacognitive filler**: ALL of these phrases and similar ones: "Let me think...", "Hmm...", "OK so...", "I need to reconsider", "Let me reconsider", "Wait,", "Actually,", "So,", "Now,", "Right,", "Let me check", "Let me verify", "I think", "I believe"
+4. **Irrelevant tangents**: Content unrelated to solving the problem
+5. **Self-doubt and hedging**: Sentences expressing uncertainty without mathematical content ("I'm not sure if...", "This might be wrong but...", "Let me double-check...")
+6. **Redundant restatements**: When the model restates what it already said in different words
+
+When in doubt, DELETE. The goal is to keep only the essential mathematical reasoning. It is better to over-delete than to under-delete.
+
+Preserve ONLY:
+- Equations and derivations that contribute to the solution
+- Key intermediate results
+- Final conclusions
+
+## Critical Rules
+- You may ONLY DELETE text. Do NOT rewrite, paraphrase, summarize, or rephrase anything.
+- Every word in your output must appear verbatim in the original chunk, in the same order.
+- Your job is purely subtractive: remove lines/sentences, keep everything else exactly as-is.
+
+## Output
+Return ONLY the cleaned text. Do not add any commentary, headers, or formatting — just the original text with redundant parts removed.

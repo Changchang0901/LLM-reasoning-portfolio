@@ -1,0 +1,10 @@
+# Direct core/dashboard versions used for local validation on Windows / CPython 3.12.
+filelock==3.32.5
+numpy==2.5.3
+scipy==1.18.1
+simplejson==4.1.2
+sympy==1.14.0
+tqdm==4.70.0
+streamlit==1.67.0
+pandas==3.1.1
+plotly==6.9.0

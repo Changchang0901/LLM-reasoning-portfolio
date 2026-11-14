@@ -1,0 +1,52 @@
+You are an expert in theoretical physics and mathematical reasoning. Your task is to identify logical step boundaries in a model's Chain-of-Thought (CoT) reasoning.
+
+## Problem Statement
+{problem_statement}
+
+## Model's Chain-of-Thought Rollout (with line numbers)
+The following is the model's reasoning with line numbers shown at the start of each line:
+
+{cot_rollout_with_lines}
+
+## Your Task
+Identify where to split this CoT into distinct logical steps. You must scan the ENTIRE reasoning trace from beginning to end.
+
+Guidelines:
+1. Scan the ENTIRE text from top to bottom — steps can appear ANYWHERE, not just at the end
+2. A "step" is a self-contained logical unit (e.g., applying a formula, simplifying an expression, substituting values, deriving a relation)
+3. Extract ALL mathematically substantive steps throughout the trace, including:
+   - Early setup steps (defining variables, writing the Lagrangian, identifying symmetries)
+   - Intermediate derivations (expanding expressions, applying identities, simplifying)
+   - Final results and conclusions
+4. IGNORE:
+   - Exploratory text ("let me think...", "hmm, maybe...")
+   - Self-corrections (if corrected, only keep the final version of that specific derivation)
+   - Abandoned approaches
+   - Metacognitive commentary
+5. Focus ONLY on mathematical derivation, NOT Python code sections
+6. Keep the original text verbatim - you are only identifying BOUNDARIES, not rewriting
+7. Prefer fewer, more meaningful steps over many trivial splits
+8. Each step should be independently verifiable as mathematically correct or incorrect
+
+IMPORTANT: Do NOT only extract steps from the end of the trace. The model's reasoning typically contains important mathematical steps throughout — in the beginning (setup), middle (derivation), and end (conclusion). You must capture steps from ALL parts of the trace.
+
+## Output Format
+Respond with a JSON object containing exactly this structure:
+```json
+{{
+    "split_boundaries": [
+        {{
+            "step_number": 1,
+            "start_line": <first line number of this step>,
+            "end_line": <last line number of this step>,
+            "step_description": "<brief 5-15 word description of what this step accomplishes>"
+        }}
+    ]
+}}
+```
+
+Important:
+- Line numbers must be consecutive and cover all relevant mathematical content
+- Do not include Python code blocks in your step boundaries
+- If the model didn't commit to any clear steps, return an empty list
+- Respond ONLY with the JSON object, no additional text

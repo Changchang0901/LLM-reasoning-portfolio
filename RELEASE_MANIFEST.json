@@ -1,0 +1,341 @@
+{
+  "format": 1,
+  "files": {
+    ".gitignore": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "4e3b97eade9ff4fd054c07fefa09b0af3ec957e50ee369e14844218bc8bce62f",
+      "bytes": 198
+    },
+    ".streamlit/config.toml": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "9fefc8acb756beb693748ff5ba70ffc919c2b1f3a054123b92f79f422a6d3ec5",
+      "bytes": 87
+    },
+    "NOTICE.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "463ec840e69a8874be88e945d15bb89021bef4be2b049f92a5d142898b312453",
+      "bytes": 982
+    },
+    "README.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "436e2838d60beb923bea4a0775406cb12559894dbfd91af7cd1e57127855a74c",
+      "bytes": 8986
+    },
+    "assets/screenshots/original_dashboard_overview.jpg": {
+      "origin": "Browser screenshot of original research dashboard, public-data subset",
+      "adaptation": "Actual UI capture; internal filesystem model identifiers display-aliased, numerical results unchanged",
+      "sha256": "0bcc611c35e08f60f3617da9285ff20814f55a01ab8fe010454c8032050bf3c9",
+      "bytes": 77719
+    },
+    "assets/screenshots/original_dataset_distributions.jpg": {
+      "origin": "Browser screenshot of original research dashboard, public-data subset",
+      "adaptation": "Actual UI capture; internal filesystem model identifiers display-aliased, numerical results unchanged",
+      "sha256": "220e1937b3e70080ceb9067f24152cfeee7b9a9d0e8c4d8cfb762aeae8b8caa4",
+      "bytes": 60157
+    },
+    "assets/screenshots/original_verification_comparison.jpg": {
+      "origin": "Browser screenshot of original research dashboard, public-data subset",
+      "adaptation": "Actual UI capture; internal filesystem model identifiers display-aliased, numerical results unchanged",
+      "sha256": "d1dd760c0f3c7dc235cf6d16cc78d8943afe286e8446e10260145bf18251a18b",
+      "bytes": 84637
+    },
+    "assets/screenshots/original_verification_matrix.jpg": {
+      "origin": "Browser screenshot of original research dashboard, public-data subset",
+      "adaptation": "Actual UI capture; internal filesystem model identifiers display-aliased, numerical results unchanged",
+      "sha256": "6b5b556cdb481323b26d60f632527c64a85c017c2478353cc9c6e46fbc089b7c",
+      "bytes": 88224
+    },
+    "config/grading_config.json": {
+      "origin": "config/grading_config.json",
+      "adaptation": "Generic prompts/settings; no data or credentials",
+      "sha256": "8d9d6fe6aa89e4264987d802edaef81b2983d66a0caa246a2a33e822a239bdaf",
+      "bytes": 25
+    },
+    "config/inference_config.json": {
+      "origin": "config/inference_config.json",
+      "adaptation": "Generic prompts/settings; no data or credentials",
+      "sha256": "a5c297404d27c239690ba1f6d3a13382ed38dbebe7feb4b0fb16e4c73c8534bc",
+      "bytes": 2024
+    },
+    "data/demo/README.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "453e92f591f5636d26e2e10f33b188b211caca7d551b741ca01e816ede15e835",
+      "bytes": 420
+    },
+    "data/demo/demo_constant_acceleration.json": {
+      "origin": "New portfolio-only file",
+      "adaptation": "New fixture; never copied from research data",
+      "sha256": "5d1a64278b5f6a30b41d50525431fb6a80aecea1aa9e27e762f027306c2622ac",
+      "bytes": 2449
+    },
+    "data/demo/demo_spring_frequency.json": {
+      "origin": "New portfolio-only file",
+      "adaptation": "New fixture; never copied from research data",
+      "sha256": "8bfe8b91a8c822f5bd70c4ecedf5d8312f67c4b443ffb6fb4d3e4d348130f52b",
+      "bytes": 2272
+    },
+    "demo.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "b945a914070a8157d02fcd8ff9c06ca1646dd60439b1b5452ee21202d1935459",
+      "bytes": 2250
+    },
+    "docs/ANALYSIS.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "fa60cba336d5a02f2b656f71ff3a2acfe44d8a8b98420e7c7f2fb12c469a5863",
+      "bytes": 1418
+    },
+    "docs/DEMO.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "0b96cea260bd02496a2d531dcb96d3ee44b307790b6d086b236f8644d5a64cc1",
+      "bytes": 1609
+    },
+    "docs/PROVENANCE.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "27fa14ac4f64b15cfce1f9889662a0ebd8c0224ec2e560d9b61d8c8bd0d865df",
+      "bytes": 2687
+    },
+    "docs/VALIDATION.md": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Validation and reproducibility documentation",
+      "sha256": "b93e22fbdbe723d7e94dfea05678307a682e08b56b9acefec8a30425a4c9b354",
+      "bytes": 1558
+    },
+    "examples/demo_dataset.tex": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "180196f7c453eca59c99d630d6e0f374f82f546d3651914501cd8bd1c60c86cd",
+      "bytes": 699
+    },
+    "file_utils/__init__.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
+    },
+    "file_utils/file_utils.py": {
+      "origin": "file_utils/file_utils.py",
+      "adaptation": "Only three generic JSON helpers retained",
+      "sha256": "d29c5acb9ca1ee084261f8b81a15aa3f6a3e02b6351d7a829fae13b6c87e6a80",
+      "bytes": 604
+    },
+    "file_utils/parse_dataset_tex.py": {
+      "origin": "file_utils/parse_dataset_tex.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "66d96cbf950506866ecd7881b1ccc0a6d3e138b3419685b9d9a8c1faeacc42fe",
+      "bytes": 7318
+    },
+    "main/generate_latex.py": {
+      "origin": "main/generate_latex.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "6c8c5060be107e4d439ef59de8ef9562ff6b108665be5bad32a256a71a7784b9",
+      "bytes": 6380
+    },
+    "main/latex_generator.py": {
+      "origin": "main/latex_generator.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "8d0f5f8a6257e95a23f0c977b1900f1d79f0e5bcd59e6025c3203fc97751e7f5",
+      "bytes": 47927
+    },
+    "main/main.py": {
+      "origin": "main/main.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "e984fd0050bd5538b8d78da339b19230ec839acc6cb276a9d243f44b5bcbecb3",
+      "bytes": 9405
+    },
+    "main/problem_processor_base.py": {
+      "origin": "main/problem_processor_base.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "c4c27fc98e9dac40ffe76556e7831bda7771f15407ed3a1cde5d0b7662eef561",
+      "bytes": 31707
+    },
+    "main/solution_generator.py": {
+      "origin": "main/solution_generator.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "d34d891fdb324f9d92d6b231990117de662ec74757a27ebad7b8f4a79e649d2d",
+      "bytes": 35690
+    },
+    "main/solution_grader.py": {
+      "origin": "main/solution_grader.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "3f9dcc521e48dd4fad04f188616d135decd2fbbabf1e7ed3ae0063580dbfb4d2",
+      "bytes": 38271
+    },
+    "requirements-analysis.txt": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "880e295f2a549c67eeab895cb1ed0ec54fa3d9e847b6dd0aeecbc2101af7030a",
+      "bytes": 43
+    },
+    "requirements-api.txt": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "fea61c5814ef2bfd923b979eba4ce9687e0e34d10607f80a590d01df1eeafc14",
+      "bytes": 99
+    },
+    "requirements-dashboard.txt": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "098226b0f286ac7d685f1314447f681361b79fcc38925f82f1c5198c2d689937",
+      "bytes": 74
+    },
+    "requirements-tested.txt": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Validation and reproducibility documentation",
+      "sha256": "250ee178c754b65f383d227edd4e08b1b7b64aa6949494546f0477a7771fcb68",
+      "bytes": 231
+    },
+    "requirements-windows.txt": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "9eef8901b8b79b71a7ec62927e5f414c1b2f8153ab09cf9992b3f0d53b35a676",
+      "bytes": 25
+    },
+    "requirements.txt": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "64748ce2a02133aa701e593b4e18e86fe027e392c4f4f65d13e63bc831ce0816",
+      "bytes": 159
+    },
+    "rollout_analysis/prompts/stage1_split_prompt.txt": {
+      "origin": "rollout_analysis/prompts/stage1_split_prompt.txt",
+      "adaptation": "Generic analysis templates; no filled problem content",
+      "sha256": "1ed4cf7892347b6a2aae65fecaae772705597954fbb1aa2200d4bfba7c1e82fe",
+      "bytes": 1656
+    },
+    "rollout_analysis/prompts/stage2_dedup_prompt.txt": {
+      "origin": "rollout_analysis/prompts/stage2_dedup_prompt.txt",
+      "adaptation": "Generic analysis templates; no filled problem content",
+      "sha256": "2ff8fd72b45198d32fec23a797f6f666f7dcf29c5fa159a89d6c58c031494b42",
+      "bytes": 2031
+    },
+    "rollout_analysis/prompts/stage2_distill_prompt.txt": {
+      "origin": "rollout_analysis/prompts/stage2_distill_prompt.txt",
+      "adaptation": "Generic analysis templates; no filled problem content",
+      "sha256": "19d1880737c4bb21cb6b8cb800f21d54986d5c7ea9f6a1bcff6520028ba17888",
+      "bytes": 2584
+    },
+    "rollout_analysis/prompts/stage3_match_prompt.txt": {
+      "origin": "rollout_analysis/prompts/stage3_match_prompt.txt",
+      "adaptation": "Generic analysis templates; no filled problem content",
+      "sha256": "db2ad6c81846a62addefb3c38b01d80a8162c6a5d63e64e498b4744732fa1565",
+      "bytes": 2132
+    },
+    "rollout_analysis/prompts/stage4_error_prompt.txt": {
+      "origin": "rollout_analysis/prompts/stage4_error_prompt.txt",
+      "adaptation": "Generic analysis templates; no filled problem content",
+      "sha256": "e773a2a3216acf0ae3c111cb0484606016ab2b0dd39f2ac2a5aa8469de53642e",
+      "bytes": 5611
+    },
+    "rollout_analysis/rollout_analyzer_base.py": {
+      "origin": "rollout_analysis/rollout_analyzer_base.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "3bce77cc04ad5731d83dfc986f850ce9da84988fe4ec8e1a58eda5c436007e7f",
+      "bytes": 23884
+    },
+    "rollout_analysis/schemas.py": {
+      "origin": "rollout_analysis/schemas.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "999027949c576d203e60a98e58b6b5df449728ed2ab973469d8b82bffd62e45d",
+      "bytes": 11528
+    },
+    "rollout_analysis/stage1_solution_splitter.py": {
+      "origin": "rollout_analysis/stage1_solution_splitter.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "17582b661e0b5b8beaebb687444567a9fdb840a412b7df82bdf49091f7b260a0",
+      "bytes": 13712
+    },
+    "rollout_analysis/stage2_cot_distiller.py": {
+      "origin": "rollout_analysis/stage2_cot_distiller.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "bd8b58b487382052b500a7a6fc16218a6edfb1e2b5586e3c4a468992a9c909c6",
+      "bytes": 31293
+    },
+    "rollout_analysis/stage3_step_matcher.py": {
+      "origin": "rollout_analysis/stage3_step_matcher.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "f17028595d67ded77d6b839428a420f1e17c06fcc64bea0a4d3f9126a2407dd2",
+      "bytes": 17438
+    },
+    "rollout_analysis/stage4_error_classifier.py": {
+      "origin": "rollout_analysis/stage4_error_classifier.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "81de902f1f3191fbb3e4ee235e232ae788e71faff307b1ba111b2447395785c0",
+      "bytes": 18695
+    },
+    "rollout_analysis/utils.py": {
+      "origin": "rollout_analysis/utils.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "7f6e66260722c6d6436b88c9ef31bac46f6ed61cce8085d93c68848a7b02d006",
+      "bytes": 5764
+    },
+    "scripts/convert_demo.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "2650ec2b9a27607b0a8e784713759d8c6d192e84d307119a87032eaa902cc23a",
+      "bytes": 785
+    },
+    "scripts/rollout_stats/__init__.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
+    },
+    "scripts/rollout_stats/feature_extractors.py": {
+      "origin": "scripts/rollout_stats/feature_extractors.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "a3dd3387e4dd25bce01e2135723719eca539b7b27fd32bdedcdd6fc4ca6cc190",
+      "bytes": 9810
+    },
+    "scripts/setup_windows.ps1": {
+      "origin": "scripts/setup_windows.ps1",
+      "adaptation": "Preserved setup helper",
+      "sha256": "aa87c27752d321e2f52063e464d24e5dedb06e2e44d520746c9b490b6d645c67",
+      "bytes": 1781
+    },
+    "scripts/summarize_frontier_results.py": {
+      "origin": "scripts/summarize_frontier_results.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "88fd63cc9315eb1a720c2fcae93820ac707e447b8400da4dcca54325ec33b4af",
+      "bytes": 3605
+    },
+    "streamlit_visualization/app.py": {
+      "origin": "streamlit_visualization/app.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "19c0653712c598d95e766ad82f073f8345d2796488ab0675a6931656784c8f95",
+      "bytes": 52066
+    },
+    "streamlit_visualization/config.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "9074bd14ebfa2a77c16bdda50df36d6d66a96d4e8e38463db1781975fe73d2ff",
+      "bytes": 419
+    },
+    "tests/dashboard_smoke.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Validation and reproducibility documentation",
+      "sha256": "f6282d7a1a8a93e5301caaefa8dc00c9dccfe3fe0c7b392785c2a259c7e8c582",
+      "bytes": 1673
+    },
+    "tests/test_portfolio.py": {
+      "origin": "New portfolio-only file",
+      "adaptation": "Portfolio preparation",
+      "sha256": "823c8bb747b1a8bfb811f7fe137a88749be32b9892744e2b13d0803add4d0adc",
+      "bytes": 3657
+    },
+    "tests/test_windows_compat.py": {
+      "origin": "tests/test_windows_compat.py",
+      "adaptation": "Demo paths/defaults; trailing scratch commands removed; selected portfolio-specific changes documented below.",
+      "sha256": "9c24d4ffb48beeab2be93b892fd3b72cc24920169759e9583d8c0c7e3b2ac212",
+      "bytes": 2352
+    }
+  }
+}

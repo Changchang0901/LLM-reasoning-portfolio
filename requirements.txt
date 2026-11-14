@@ -1,0 +1,7 @@
+# Offline demo and code verifier (Python 3.11 or 3.12)
+filelock>=3.18,<4
+numpy>=1.26,<3
+scipy>=1.13,<2
+simplejson>=3.19,<5
+sympy>=1.13,<2
+tqdm>=4.67,<5
