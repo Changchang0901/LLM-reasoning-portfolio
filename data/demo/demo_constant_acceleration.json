@@ -1,0 +1,84 @@
+{
+  "problem_id": "demo_constant_acceleration",
+  "provenance": {
+    "kind": "new educational portfolio fixture",
+    "benchmark_data": false,
+    "responses": "Hand-written correct and intentionally incorrect candidates; no model was queried"
+  },
+  "problem_metadata": {
+    "Difficulty level": "1",
+    "Domain of theoretical physics": "Classical mechanics",
+    "Source": "New educational example for this portfolio"
+  },
+  "problem_details": {
+    "Problem Statement": "For constant acceleration a, initial velocity v0, and time t, return the displacement from the initial position.",
+    "Answer Requirements": "Implement def displacement(v0, a, t), returning a float. Use SI units.",
+    "Solution": "Use the standard elementary relation $s=v_0t+\\frac{1}{2}at^2$.",
+    "Answer": "$s=v_0t+\\frac{1}{2}at^2$.",
+    "Code": "```python\ndef displacement(v0, a, t):\n    return v0 * t + 0.5 * a * t ** 2\n```",
+    "test": {
+      "arguments": [
+        {
+          "name": "v0",
+          "type": "float"
+        },
+        {
+          "name": "a",
+          "type": "float"
+        },
+        {
+          "name": "t",
+          "type": "float"
+        }
+      ],
+      "test_cases": [
+        {
+          "inputs": {
+            "v0": 0.0,
+            "a": 2.0,
+            "t": 3.0
+          },
+          "tolerance": 1e-08
+        },
+        {
+          "inputs": {
+            "v0": 4.0,
+            "a": -1.0,
+            "t": 2.0
+          },
+          "tolerance": 1e-08
+        },
+        {
+          "inputs": {
+            "v0": -2.0,
+            "a": 0.5,
+            "t": 4.0
+          },
+          "tolerance": 1e-08
+        }
+      ]
+    }
+  },
+  "model_solutions": [
+    {
+      "model": "demo-correct",
+      "attempts": [
+        {
+          "timestamp": "demo-01",
+          "prompt_type": "hand-written",
+          "detailed_solution": "Hand-written educational candidate. $s=v_0t+\\frac{1}{2}at^2$.\n```python\ndef displacement(v0, a, t):\n    return v0 * t + 0.5 * a * t ** 2\n```"
+        }
+      ]
+    },
+    {
+      "model": "demo-incorrect",
+      "attempts": [
+        {
+          "timestamp": "demo-02",
+          "prompt_type": "hand-written",
+          "detailed_solution": "Intentionally incorrect educational candidate.\n```python\ndef displacement(v0, a, t):\n    return v0 * t + a * t ** 2\n```"
+        }
+      ]
+    }
+  ]
+}

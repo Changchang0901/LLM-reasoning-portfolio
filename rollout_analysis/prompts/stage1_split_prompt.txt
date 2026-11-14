@@ -1,0 +1,40 @@
+You are an expert in theoretical physics and mathematical reasoning. Your task is to identify logical step boundaries in a mathematical derivation.
+
+## Problem Statement
+{problem_statement}
+
+## Golden Solution (with line numbers)
+The following is the correct solution with line numbers shown at the start of each line:
+
+{golden_solution_with_lines}
+
+## Your Task
+Identify where to split this solution into distinct logical steps. Each step should represent a single coherent mathematical operation or reasoning step.
+
+Guidelines:
+1. Focus ONLY on the mathematical derivation, NOT any Python code sections
+2. A "step" is a self-contained logical unit (e.g., applying a formula, simplifying an expression, substituting values, invoking a theorem)
+3. Keep the original text verbatim - you are only identifying BOUNDARIES, not rewriting
+4. Prefer fewer, more meaningful steps over many trivial splits
+5. Each step should be independently verifiable as mathematically correct or incorrect
+
+## Output Format
+Respond with a JSON object containing exactly this structure:
+```json
+{{
+    "split_boundaries": [
+        {{
+            "step_number": 1,
+            "start_line": <first line number of this step>,
+            "end_line": <last line number of this step>,
+            "step_description": "<brief 5-15 word description of what this step accomplishes>"
+        }}
+    ]
+}}
+```
+
+Important:
+- Line numbers must be consecutive and cover all mathematical content
+- Do not include Python code blocks in your step boundaries
+- The first step should start at line 1
+- Respond ONLY with the JSON object, no additional text

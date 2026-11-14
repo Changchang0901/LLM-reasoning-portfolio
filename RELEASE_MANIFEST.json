@@ -16,14 +16,14 @@
     "NOTICE.md": {
       "origin": "New portfolio-only file",
       "adaptation": "Portfolio preparation",
-      "sha256": "463ec840e69a8874be88e945d15bb89021bef4be2b049f92a5d142898b312453",
-      "bytes": 982
+      "sha256": "ec559d1d10172ab53eadb8939b4b9c0263353d75d1f2b9de2d5b41cbaad3bc5f",
+      "bytes": 1836
     },
     "README.md": {
       "origin": "New portfolio-only file",
       "adaptation": "Portfolio preparation",
-      "sha256": "436e2838d60beb923bea4a0775406cb12559894dbfd91af7cd1e57127855a74c",
-      "bytes": 8986
+      "sha256": "41f157b7ab8eee528a1cd4824a7135867e669ca53b907cdc5e0d6a3253475746",
+      "bytes": 9570
     },
     "assets/screenshots/original_dashboard_overview.jpg": {
       "origin": "Browser screenshot of original research dashboard, public-data subset",

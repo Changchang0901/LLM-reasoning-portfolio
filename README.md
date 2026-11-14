@@ -173,3 +173,16 @@ credential files, and Git history are excluded. New educational fixtures and
 portfolio adapters are identified in [provenance](docs/PROVENANCE.md).
 
 See [NOTICE](NOTICE.md) for collaborative attribution and licensing status.
+
+## Rights and permitted use
+
+This repository is provided for portfolio presentation and admissions review.
+It is not released under an open-source license.
+
+Except as permitted by applicable law or GitHub's Terms of Service, no additional
+permission is granted to use, modify, redistribute, or incorporate the code or
+other materials into other projects without prior written permission from the
+relevant rights holders.
+
+Rights in collaborative and third-party materials remain with their respective
+owners. Existing third-party licenses and notices continue to apply.
